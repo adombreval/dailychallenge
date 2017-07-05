@@ -1,65 +1,177 @@
+/* style.css */
+
 body{
-  background: rgb(245,245,245);
-  color: black;
-  font-size: 25px;
-  font-family: Helvetica;
-}
-h1{
-  font-family: Courier;
-  color: red;
-  font-weight: lighter;
-  font-size: 50px;
-}
-h2 {
-  font-family: Courier;
-  color: pink;
-  font-weight: lighter;
-  font-size: 35px;
-}
-a {
-  color: blue;
-}
-a:hover {
-  text-decoration: none;
-  color: purple;
-}
+  background: #fff;
+  color:#DCDCDC; 
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+} 
+
 nav ul {
-  float: center;
+  float: left;
   margin-top: 25px;
 }
 
-.feature,.defi {
- 	border: 1px solid #F2F2F2;
- 	margin: 15px;
-	padding: 15px 0;
-	text-align: center;
-	width: 400px;
-	background: #FAFAFA;}
- #apropos{
-  margin: 0 auto;
-  width: 80%;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
+nav li {
+  margin: 10px;
+  display:inline;
 }
+
+h1{
+  font-family: 'Lato', sans-serif;
+  color:  #F8F8FF; 
+  font-weight: bolder;
+  font-size: 2em;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #DCDCDC;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+p{
+  color: #8e9bac;
+}
+
+a { 
+  color: #DCDCDC;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(225, 0, 152);
+}
+
+br { 
+  color: #F8F8FF;
+}
+
 #logo{
-  color: #fff;
+  color: #F8F8FF;
   font-size: 35px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
   float: left;
   margin-left: 50px;
 }
+
+#test{
+  background-color: #41A3C0;
+  text-align: center;
+  height: 450px;
+  padding: 150px;
+  color: white;
+  background: url(http://blog.pourlesmusiciens.com/wp-content/uploads/2015/07/jimi-hendrix-3.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  background-size: cover; 
+  color: #41A3C0;
+  text-shadow: 5px 5px #00;
+}
+
+.defis #logo{
+  color:white;
+}
+
+/* Mis en forme de la baseline */
+#baseline{
+  background-color: #41A3C0;
+  text-align: center;
+  height: 450px;
+  padding: 150px;
+  color: white;
+  background: url(http://blog.pourlesmusiciens.com/wp-content/uploads/2015/07/jimi-hendrix-3.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  background-size: cover; 
+  color: #41A3C0;
+  text-shadow: 5px 5px #00;
+}
+
+
+#baseline h1 {
+  font-size: 50px;
+  color: #F8F8FF;
+}
+
+#baseline h2 {
+  font-size: 30px;
+  color: #000000;
+}
+
+#baseline a {
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 #baseline a:hover {
   position: relative;
   top:1px;
 }
+
+/* Centrage de la section a propos */
+#apropos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+/* Mise en forme de la div de feature */
+
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+}
+
+
 #welcome{
-  background-color: #41A3C0;
+  background: url(http://blog.pourlesmusiciens.com/wp-content/uploads/2015/07/jimi-hendrix-3.jpg) no-repeat top center fixed; 
   text-align: center;
   padding: 50px;
   color: white;
 }
+
 #welcome h4{
  font-size: 50px;
+}
+
+#defis{
+  margin-top:100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+
+#defis h2 {
+  color: rgb(225, 0, 152);
+
+}
+
+
+footer {
+  text-align:center;
+  background-color: #41A3C0;
+}
+
+
+
+footer p {
+   color: white;
+   margin: 0;
+   padding: 0;
 }
 
